@@ -1,3 +1,4 @@
+
 body {
     font-family: "Poppins", sans-serif;
     margin: 50px 50px 0 50px;
@@ -17,17 +18,18 @@ body {
     margin: 20px;
 }
 
+.logotitle{
+    color: brown;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    }
+
 h1{
     font-size: 5rem;
     line-height: 1.5;
     
 }
-.logo{
-    color: brown;
-    font-family:'Arial Narrow Bold', sans-serif;
-    font-size: 3rem;
-    float: left;
-}
+
 
 span{
     color: mediumslateblue;
@@ -67,30 +69,41 @@ text-align: right;
 
 
 @media (max-width: 680px) {
-  .logo {
-    width: 100px;
+    .logoimg {
+      width: 200px;
+      display: inline;
+      margin-left: 12%;
+      margin-top: -10%;
+    }
+    .logotitle{
+        font-size: 2.5rem;
+          text-align: center;
+      }
+  
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+    
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+      margin: 0 auto;
+      
+    }
   }
-
-  h1 {
-    font-size: 1.5rem;
+  footer{
+    clear: both;
+    color: midnightblue;
     text-align: center;
-  }
-   .logo{
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .card {
-    width: 100%;
-    display: block;
-    margin-bottom: 30px;
-    text-align: justify;
-  }
-
-  .card img {
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
-  }
-}
+    }
